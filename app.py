@@ -188,7 +188,7 @@ def main():
     st.set_page_config(page_title="역사 인물 아카이브", page_icon="🏛️")
     
     # st.title 대신 markdown을 써서 글자 크기를 25px 정도로 줄입니다. (기본은 약 40px)
-    st.markdown("<h2 style='font-size: 24px;'>🏛️ Person Search AI</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='font-size: 30px;'>🏛️ Person Search AI</h2>", unsafe_allow_html=True)
     st.markdown("인물 이름을 입력하면 위키백과, e뮤지엄, 메트로폴리탄, 구글을 모두 검색하여 정리해줍니다.")
 
 
@@ -236,3 +236,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
